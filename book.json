@@ -1,0 +1,9 @@
+{
+    "plugins": ["disqus", "exercises"],
+    
+       "pluginsConfig": {
+         "disqus": {
+           "shortName": "play-heroku-workshop"
+        }
+    }  
+}
