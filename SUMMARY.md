@@ -1,5 +1,5 @@
 # Summary
-
+* [Gitbook Note types](note-types.md)
 * [Introduction](README.md)
 * [Heroku Overview](01-heroku-overview/00-index.md)
    * [Developer Driven Deployment](01-heroku-overview/01-developer-driven-deployment.md)   
@@ -28,14 +28,15 @@
   * [Filtering the Log](README.md)
   * [Logging from your app](README.md)
   * [Analysing logs with Papertrail](understanding-logging/04-analysing-logs-with-papertrail.md)
-* [Scaling your app](README.md)
+* [Scaling your app](scaling-apps/00-index.md)
   * [Scaling via Toolbelt](README.md)
   * [Scaling via scripts](README.md)
   * [Scaling via Dashboard](README.md)
-* [Understanding the Process Model](README.md)
-  * [Java examples](README.md)
-  * [Node.js examples](README.md)
-  * [Clojure examples](README.md)
+* [Dynos and the Process Model](dynos-and-the-process-model/00-index.md)
+  * [Understanding Dynos](dynos-and-the-process-model/understanding-dynos.md)
+  * [Process types](dynos-and-the-process-model/process-types.md)
+  * [Java process examples](dynos-and-the-process-model/java-process-examples.md)
+  * [Dyno usage](dynos-and-the-process-model/dyno-usage.md)
 * [Developing the Play app](README.md)
   * [Deploy feature a](README.md)
   * [Deploy feature b](README.md)
@@ -52,7 +53,7 @@
   * [Postgres Tools](README.md)
   * [Connecting locally](README.md)
   * [Loading Data](README.md)
-  * [Running db scripts remotely - heroku run](README.md) 
+  * [Run Db scripts remotely](heroku-postgres/08-run-db-scripts-remotely.md) 
   * [Following](README.md)
   * [Forking](README.md)
   * [Rolling back](README.md)
@@ -84,4 +85,5 @@
   * [Forman](README.md)
   * [domain name](README.md)
   * [Collaborate with Github](extras/collaborate-with-github.md)
+
   

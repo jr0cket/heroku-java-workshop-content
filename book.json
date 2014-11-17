@@ -1,9 +1,16 @@
 {
-    "plugins": ["disqus", "exercises"],
+    "plugins": ["richquotes", "disqus", "exercises"],
     
        "pluginsConfig": {
          "disqus": {
            "shortName": "play-heroku-workshop"
         }
-    }  
+    },
+    "pluginsConfig":
+    {
+        "richquotes":
+        {
+            "todos": true 
+        }
+    }
 }

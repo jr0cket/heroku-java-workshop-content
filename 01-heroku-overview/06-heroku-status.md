@@ -1,9 +1,8 @@
-# Heroku Status 
+# Heroku Status Website
 
   The [Heroku Status](https://status.heroku.com) website provides a simple way to see if any issues are occuring on the platform.  Details of any incidents are published here
 
-![Heroku Status example]()
-
+![Heroku Status example](../images/heroku-status-example.png)
 
 ## Production verses Development 
 
@@ -16,4 +15,14 @@ Development refers to everything else (e.g. Deployment processes, Git servers, A
 ## Keeping upto date with an incident 
 
 You can sign up for alerts on the status website via Email, SMS or RSS.
+
+![Heroku Status Notifications](../images/heroku-status-notifications-subscribe.png)
+
+
+## Heroku Uptime 
+
+  You can also see the historic uptime of Heroku, for the US and EU regions
+  
+![Heroku Status uptime EU region](../images/heroku-status-uptime-euregion.png)
+
 

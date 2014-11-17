@@ -6,13 +6,13 @@
 
 This workshop will guide you through all the steps to build, deploy and monitor a relatively simple Java application using the Play framework and Postgres database.  Examples of using Heroku with other languages and frameworks will also be discussed and you are encouraged to try out your own projects on Heroku too.
   
-> This is a practical workshop, however all the code for a working application is provided and is also available from repositories on Github.  Expertise with any of the languages or frameworks used is not required, unless you want to develop any of the applications further.
+> **Note** This is a practical workshop, however all the code for a working application is provided and is also available from repositories on Github.  Expertise with any of the languages or frameworks used is not required, unless you want to develop any of the applications further.
 
 ## Heroku - Platform as a Service
 
   [Heroku](https://www.heroku.com) is a service that allows developers to deploy applications using the tools they are already familiar with (build & version control and CI tools).  If you can use Git, then you can simply push your code to Heroku and it will be deployed and run for you.
   
-> If you have not yet learnt Git we can help with that during the workshop, or you can visit [try.github.io](http://try.github.io) or my [Git Workshop](http://jr0cket.co.uk/git-workshop/)
+> **Hint** If you have not yet learnt Git we can help with that during the workshop, or you can visit [try.github.io](http://try.github.io) or my [Git Workshop](http://jr0cket.co.uk/git-workshop/)
 
   Heroku is a polyglot platform as it can run many different programming languages and frameworks.  Heroku provides additional support for the most common languages (Ruby, Node.js, Java, Python, PHP, Scala, Clojure) and there is community support for over 50 other programming languages.
 
@@ -26,7 +26,7 @@ This workshop will guide you through all the steps to build, deploy and monitor 
 
   Heroku is integrated with Salesforce via Heroku Connect or configured as a Trusted App within your Salesforce Org.
 
-> TODO: links for Heroku connect and guides to connected apps & api use 
+> **TODO** links for Heroku connect and guides to connected apps & api use 
 
 ---
 

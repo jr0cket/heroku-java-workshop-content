@@ -1,5 +1,7 @@
 # Establishing Multiple Environments 
 
+![Heroku multiple environments](../images/heroku-environments.png)
+
   For many projects you will want to test your application as a working website or service before actually deploying it to production.  You may also need to have several environments to satisfy company policy.  It is a simple matter to create additional Heroku applications that will work from the same codebase and therefore establish multiple environments.
 
 Navigate to the root folder of your project, where your .git folder, Procfile and root of your application lives.
