@@ -2,9 +2,9 @@
 
 ![Heroku Logo](images/heroku-concept.png)
 
-  [Heroku](https://www.heroku.com) is gives developers an easily way deploy, scale and monitor applications without the need for extensive DevOps training or tooling.
+  [Heroku](https://www.heroku.com) is gives developers an easy way deploy, scale and monitor applications without the need for extensive DevOps training or tooling.
 
-This workshop will guide you through all the steps to build, deploy and monitor a relatively simple Java application using the Play framework and Postgres database.  Examples of using Heroku with other languages and frameworks will also be discussed and you are encouraged to try out your own projects on Heroku too.
+  This workshop will guide you through the steps to build, deploy and monitor a relatively simple Java application using the Play framework and Postgres database.  Examples of using Heroku with other languages and frameworks will also be discussed and you are encouraged to try out your own projects on Heroku too.
   
 > **Note** This is a practical workshop, however all the code for a working application is provided and is also available from repositories on Github.  Expertise with any of the languages or frameworks used is not required, unless you want to develop any of the applications further.
 
