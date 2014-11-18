@@ -10,6 +10,12 @@
 * [Heroku Dev Center](http://devcenter.heroku.com)
 
 
+## Whats new with Heroku 
+
+* [Heroku change log](https://devcenter.heroku.com/changelog)
+* [Heroku blog](https://blog.heroku.com)
+
+
 ## Java on Heroku
 
 * [Java on Heroku Dev Center](https://devcenter.heroku.com/categories/java)

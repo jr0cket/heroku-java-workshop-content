@@ -1,6 +1,6 @@
 # Adding a Public Key to your Heroku account 
 
-> Heroku is beta testing a service called Http Git which removes the need for a public key and enables those users who would otherwise be stuck behind restrictive firewalls.  For more information, see the article [Http Git](https://devcenter.heroku.com/articles/http-git).
+> **Info** Heroku is beta testing a service called Http Git which removes the need for a public key and enables those users who would otherwise be stuck behind restrictive firewalls.  For more information, see the article [Http Git](https://devcenter.heroku.com/articles/http-git).
 
   To deploying your code on Heroku you need to securely authenticate yourself, this is done via public key encryption and therefore you need to add an SSH key to your Heroku account.  This same approach taken by services such as Github.
 
@@ -12,7 +12,7 @@
 
   You will be prompted for your Heroku account username and password.  Select `y` to generate a public key if you are asked.
 
-> TODO: replace with a picture of the output of the heroku login command, so it looks like output rather than a command you have to run
+> **TODO** replace with a picture of the output of the heroku login command, so it looks like output rather than a command you have to run
 
 ```
 $ heroku login

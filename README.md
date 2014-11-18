@@ -1,4 +1,4 @@
-# Workshop - Java Play and Postgres on Heroku
+# Workshop: Play on Heroku
 
 ![Heroku Logo](images/heroku-concept.png)
 
