@@ -1,16 +1,12 @@
 {
-    "plugins": ["richquotes", "disqus", "exercises"],
+  "plugins": ["richquotes", "disqus", "exercises"],
     
-       "pluginsConfig": {
-         "disqus": {
-           "shortName": "play-heroku-workshop"
-        }
-    },
-    "pluginsConfig":
-    {
-        "richquotes":
-        {
-            "todos": true 
-        }
+  "pluginsConfig": {
+    "disqus": {
+      "shortName": "play-heroku-workshop"
+     },
+    "richquotes": {
+      "todos": true 
     }
+  }
 }
