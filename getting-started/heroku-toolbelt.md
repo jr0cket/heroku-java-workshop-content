@@ -6,7 +6,7 @@
   
   Download and install the [Heroku toolbelt website](http://toolbelt.heroku.com).
 
----
+### Test the Toolbelt installation
 
   To test if the toolbelt is installed correctly, use the following command: 
 

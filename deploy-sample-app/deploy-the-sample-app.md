@@ -2,7 +2,7 @@
 
   Using standard Git command you will push your code securely to Heroku.
   
-> We will show you this via the command line so you see the actuall commands and paramters, however you are free to use any text or graphics based Git client.
+> **Info** We show you this via the command line so you see the actuall commands and paramters, however you are free to use any Git client.
 
   In the folder containing the code you downloaded, `java-play-sample-app`, run the following commands:
   
@@ -13,11 +13,15 @@
 
   You will see details of the deployment 
 
-> TODO: sample deployment output
+> **fixme** sample deployment output
 
-## What happens when I push my code ?
+---
+
+### What happens when I push my code ?
   
   The following steps happen each time you push a new change to Heroku for your app:
+
+![Heroku deploy play app - simplified](../images/heroku-push-simple-play.png)
   
   * Git compresses the changes in your local git repository, so there is less data to send
   * Heroku repository unpacks the code and adds the new commits to its repository for your app 
@@ -29,9 +33,6 @@
   * Any processes defined in the `Procfile` for your project or processes defined in the buildpack for your langauge are started.
 
 
-> TODO: diagram of this process
+> **Info** Heroku has a mirror of many of the common dependencies used for each of its supported languates.  This mirror is used by buildpacks to speed up the deployment process.  
 
-
-> TODO: is there an `heroku git` command that I should use instead of `git push` ?
-
-> Heroku has a mirror of many of the common dependencies used for each of its supported languates [TODO: add reference about this, buildpacks ?]
+> Dependencies are also cached between deploys to save downloading the Internet on each deploy.

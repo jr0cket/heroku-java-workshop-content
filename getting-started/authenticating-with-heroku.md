@@ -1,31 +1,39 @@
-# Adding a Public Key to your Heroku account 
+# Authenticating with Heroku
 
-> **Info** Heroku is beta testing a service called Http Git which removes the need for a public key and enables those users who would otherwise be stuck behind restrictive firewalls.  For more information, see the article [Http Git](https://devcenter.heroku.com/articles/http-git).
+> **fixme** check that http git service has gone live
 
-  To deploying your code on Heroku you need to securely authenticate yourself, this is done via public key encryption and therefore you need to add an SSH key to your Heroku account.  This same approach taken by services such as Github.
+  To deploy your source code onto Heroku you need to first authenticate yourself (prove you are who you say you are).  You only need to authenticate yourself once per computer you use.
+
+### Authentication via HTTP Git service (new)
+
+  Heroku has released a new service called Http Git which removes the need for a public key and enables those users who would otherwise be stuck behind restrictive firewalls.  
+
+> **Note** To authenticate yourself to heroku, open a command line terminal and enter the command: 
+>    `heroku login`
+
+  Provide your Heroku username and password when prompted.
+
+> **fixme** add screenshot of heroku login output
+  
+  If this command is successful, your Heroku API key is added to the `~/.netrc` file.  When you run other Heroku Toolbelt commands or push code, this API key is used to authenticate you.
+
+> **Hint** For more information, see the article [Http Git](https://devcenter.heroku.com/articles/http-git).
+
+
+  
+### Authentication by Public Key (optional)
+ 
+  You can also authenticate yourself with Heroku via public key encryption.  To do so you need to add an SSH key to your Heroku account.  This same approach taken by services such as Github.
 
   Adding a public key to your Heroku account avoids having to enter username and password details each time you want to deploy your apps to Heroku.
 
   The following command authenticates you with Heroku and uploads your public key.  If you do not have a public key then the command will ask if you want to create one:
 
-    heroku login
+    heroku keys:add
 
-  You will be prompted for your Heroku account username and password.  Select `y` to generate a public key if you are asked.
+> **fixme** add screenshot of heroku keys command output
 
-> **TODO** replace with a picture of the output of the heroku login command, so it looks like output rather than a command you have to run
-
-```
-$ heroku login
-Enter your Heroku credentials.
-Email: java@example.com
-Password:
-Could not find an existing public key.
-Would you like to generate one? [Yn]
-Generating new SSH public key.
-Uploading ssh public key /Users/java/.ssh/id_rsa.pub
-```
-
-## Creating your own key (optional)
+### Creating your own key (optional)
 
   Use the following command if you would prefer to create your key manually, rather than via `heroku login`.  When you create the public key, ensure you add the email address of your Heroku account as a comment:
 

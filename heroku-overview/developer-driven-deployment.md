@@ -4,9 +4,13 @@ Heroku uses the tools developer are familiar with, so you dont need to spend wee
 
 To deploy your application to Heroku, you use Git version control tool to push code to Heroku.  Heroku works out what langauges and frameworks you have used and configures, builds and deploys your application automatically.
 
-> If you know the basics of Git, you already know how to deploy onto Heroku.  If you do not know Git, we will show you all you need.
+![Heroku deployment simplified](../images/heroku-push-simple.png)
 
-There are 7 tiny steps to create your very first Heroku application
+> **Comment** If you know the basics of Git, you already know how to deploy onto Heroku.  If you do not know Git, we will show you all you need to know in this workshop.
+
+### Getting started with Heroku
+
+This workshop will walk you through the few steps to create your very first Heroku application:
 
 * Create an account on Heroku and download the Heroku Toolbelt
 * Authenticate with `heroku login`
@@ -18,5 +22,5 @@ There are 7 tiny steps to create your very first Heroku application
 
   Once you have deployed you application, its simply a matter of `git push heroku master` each time you have code changes (commits) you want to deploy.
 
-  With 750 hours for free per application per month, you can easily test out your ideas and software without any additional risk.
+> **Info** With 750 hours for free per application per month, you can easily test out your ideas and software without any additional risk.
 

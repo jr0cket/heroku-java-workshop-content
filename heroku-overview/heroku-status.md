@@ -1,6 +1,6 @@
 # Heroku Status Website
 
-  The [Heroku Status](https://status.heroku.com) website provides a simple way to see if any issues are occuring on the platform.  Details of any incidents are published here
+  The [Heroku Status](https://status.heroku.com) website provides a simple way to see if any issues are occuring on the platform.  Details of any incidents are published here along with any planned maintenance windows.
 
 ![Heroku Status example](../images/heroku-status-example.png)
 
@@ -8,13 +8,11 @@
 
   Production refers to applications with 2 or more dynos or applications running on PX dynos (and any related infrastructure).
 
-> TODO: are PX dynos still called PX or are they now called XL ?
-
 Development refers to everything else (e.g. Deployment processes, Git servers, API calls, toolbelt command, one off processes, etc.).
 
-## Keeping upto date with an incident 
+## Keeping upto date with Heroku Status
 
-You can sign up for alerts on the status website via Email, SMS or RSS.
+You can sign up for alerts on the status website via Email, SMS or RSS.  You can subscribe to just production notifications or all notifications.
 
 ![Heroku Status Notifications](../images/heroku-status-notifications-subscribe.png)
 

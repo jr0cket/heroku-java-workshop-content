@@ -29,6 +29,21 @@ Quote
 > **Quote** Quote
 
 
+** Author note types **
+
+TODO
+
+> **Todo**
+
+Fixme 
+
+> **fixme**
+
+XXX
+
+> **xxx**
+
+
 ** Styles not use in this workshop ** 
 
 Tag 

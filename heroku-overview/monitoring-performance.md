@@ -10,7 +10,9 @@ Heroku provides metrics around your app as well as database queries when using H
 
 ---
 
-## Addons for Performance Metrics 
+### Addons for Performance Metrics 
+
+> **fixme** add brief section on performance metrics addons such as New Relic and ???
 
 New Relic...
 
@@ -20,7 +22,7 @@ New Relic...
 
 From http://dojo-curriculum.herokuapp.com/modules/running-production-applications.html
 
-> TODO: some advanced aspects of application performance.  Make this a seperate section ?  Elaborate
+> **fixme** some advanced aspects of application performance.  Make this a seperate section ?  Elaborate
 
 Explain why it is imperative that a web process responds quickly.
 
