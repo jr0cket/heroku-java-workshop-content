@@ -9,15 +9,12 @@
 > **fixme** add remaining links
   
   * [Bare bones Node.js app](https://github.com/ccoenraets/salesforce-canvas-demo)
-  * Sample Java app
-  * Sample Ruby app
   * [A simple Iconic app](https://github.com/driftyco/ionic-heroku-button)
-  * Sample Scala app
-  * Sample Clojure app
   * [QuizLive Mobile Template](https://github.com/heroku/mobile-template1) - mobile app template using Node.js & Angular.js
   * [Salesforce Canvas Demo](https://github.com/ccoenraets/salesforce-canvas-demo) - requires a Salesforce Org.
   * [Nibs - a customer loyalty app](https://github.com/heroku/nibs)
+  * [Node Articles](https://github.com/heroku-examples/node-articles-nlp) - Node & Express app with Amqp message broker and MongoDB for state (requires [verified Heroku account](https://heroku.com/verify)).
 
-  You can also try out one of the third party buttons from the [Heroku Button Gallery](https://buttons.heroku.com/).
+  You can also try out one of the third party buttons from the [Heroku Button Gallery](https://buttons.heroku.com/) such as the [Twilio Rapid response kit](https://github.com/Twilio-org/rapid-response-kit#heroku)
     
 > **Hint** Later on in the workshop we will show you how to add an ** Heroku button**  to your own apps.
