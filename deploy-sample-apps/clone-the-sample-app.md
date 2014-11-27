@@ -1,6 +1,8 @@
 # Clone the sample app code
 
-  To get all the code for our app onto our computer we use a command called clone.  This takes a complete copy of the Github repository, including all the history of changes.
+  To get all the code for our app onto our computer we use a command called _clone_.  This takes a complete copy of the Github repository, including all the history of changes.
+
+> **fixme** need to write this as an exercise
 
     git clone github <sample-app-url>
 
@@ -8,13 +10,13 @@
 
 > You can also specify the name of the directory the repository is copied into: 
 
->  `git clone github <sample-app-url> play-app`
+    git clone github <sample-app-url> play-app
 
   When you clone a repository, the orignal repository is linked to your local copy automatically.  You can see this by looking at the _remote_ settings of your local repository:
   
     git remote --verbose
 
-> **TODO** screenshot of sample output
+> **fixme** screenshot of sample output
 
 ## How to Clone from an existing Heroku App
 

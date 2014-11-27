@@ -1,39 +1,33 @@
 # Next steps on your Heroku journey
 
-> TODO: this section is very old and may require some updating
-
   Here are some additional resources to help you continue discovering Heroku as well as helping you understand how to write scalable applications.
   
-## Heroku Essentials
+### Heroku Essentials
 
-* [How Heroku Works](http://heroku.com/how)
-* [Heroku Dev Center](http://devcenter.heroku.com)
+* [Heroku Quickstart](https://www.heroku.com/quickstart) - language specific quickstart guides 
+* [How Heroku Works](https://devcenter.heroku.com/articles/how-heroku-works)
+* [Heroku Dev Center](https://devcenter.heroku.com)
 
 
-## Whats new with Heroku 
+### Whats new with Heroku 
 
-* [Heroku change log](https://devcenter.heroku.com/changelog)
 * [Heroku blog](https://blog.heroku.com)
+* [Heroku change log](https://devcenter.heroku.com/changelog)
+
+### Community resources 
+
+* [Higher Order Heroku](http://higher-order-heroku.com)
+* [Stack Exchange - Heroku topic]()
 
 
-## Java on Heroku
-
-* [Java on Heroku Dev Center](https://devcenter.heroku.com/categories/java)
-* [Get started with Java on Heroku in your browser](http://java.heroku.com)
-
-
-## Integrating Java with Force.com:
+### Integrating Java with Force.com:
 
 * [Rich SObjects Library](https://github.com/ryanbrainard/richsobjects)
 * [Force.com REST API Docs](http://www.salesforce.com/us/developer/docs/api_rest/index.htm)
 * [Force.com Developer Resources](http://developer.force.com)
 
 
-## Cloud Application Architecture:
+### Cloud Application Architecture
 
 * [12 Factor App](http://12factor.net)
-
-## Community resources 
-
-* [Higher Order Heroku](http://higher-order-heroku.com)
 
