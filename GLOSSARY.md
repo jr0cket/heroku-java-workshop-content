@@ -5,9 +5,6 @@ Hmmm...
 # Dyno
 An abstract way of refering to the compute resources assigned to your app.  Heroku is a lightweight container-based system, avoiding the need for you to manage and maintain servers.
 
-# Heroku
-A highly scalable, developer focused Platform as a service.  See heroku.com
-
 # Procfile
 A simple text file that defines how to run each processes in your Heroku application 
 
