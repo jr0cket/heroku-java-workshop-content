@@ -2,7 +2,6 @@
 * [Heroku Features in a nutshell](heroku-overview/index.md)
    * [Developer Driven Deployment](heroku-overview/developer-driven-deployment.md)   
    * [Abstracting Infrastructure](heroku-overview/abstracting-infrastructure.md)
-   * [Deployable Apps](heroku-overview/deployable-apps.md)   
    * [Scaling Apps](heroku-overview/scalable-apps.md)
    * [Monitoring Performance](heroku-overview/monitoring-performance.md)   
    * [Addons](heroku-overview/addons.md)

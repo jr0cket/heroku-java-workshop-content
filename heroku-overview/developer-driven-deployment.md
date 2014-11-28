@@ -1,14 +1,14 @@
 # Developer Driven Development
 
-Heroku uses the tools developer are familiar with, so you dont need to spend weeks learning new tools.
-
-To deploy your application to Heroku, you use Git version control tool to push code to Heroku.  Heroku works out what langauges and frameworks you have used and configures, builds and deploys your application automatically.
-
-![Heroku deployment simplified](../images/heroku-push-simple.png)
+  Heroku uses Git as the main way to deploy your application, so you dont need to spend time learning tools you are not already using.
 
 > **Comment** If you know the basics of Git, you already know how to deploy onto Heroku.  If you do not know Git, we will show you all you need to know in this workshop.
 
 > You can also develop your skills with Git at [try.github.io](https://try.github.io)
+
+  When Heroku recieves your `git push` it works out what langauge and framework you have used and configures, builds and deploys your application automatically.  If your language or framework has a commonly used build tool, then Heroku installs that as well so it builds your application in the same way you do locally.
+
+![Heroku deployment simplified](../images/heroku-push-simple.png)
 
 ### The developer workflow
 
@@ -20,7 +20,7 @@ To deploy your application to Heroku, you use Git version control tool to push c
 
 * Push your changes (commits) to a shared repository or continuous integration server, especially when working on a team project (eg. several times a day and/or overnight)  
 
-* Deploy your app with `git push heroku master` when you want to share your running application with others, eg. to let others test it and give feedback or to deploy a feature to production.
+* Deploy your app with `git push heroku master` when you want to share your running application with others, eg. to let others test it and give feedback or to deploy a new feature into production.
 
 ---
 

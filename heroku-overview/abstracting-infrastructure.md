@@ -1,18 +1,16 @@
 # Abstracting Infrastructure
 
-  You dont need a full blown server to run your app, as that also requires setup and maintenance.  Even using DevOps tools such as Chef, Puppet & Vagrant still take time to set up.  All you really want to do is run your app somewhere other than your laptop or desktop.
+  You dont need all the services or maintenance responsibities of full blown server (i.e. virtual machine) to run your application.  Even if you use DevOps tools such as Chef, Puppet & Vagrant you still need to maintain the operating system, which takes time away from development.  
   
-  Heroku gives you Dynos to run your apps.  
-    
-## Dynos - a lightweight way to run your apps 
+  All you really want to do is run your app somewhere other than your laptop or desktop.  So Heroku gives you Dynos to run your application.  
   
 ![Heroku Dyno](../images/heroku-dyno.png)
+    
+## Dynos - a lightweight way to run your apps 
 
-> **fixme** review the following section of text
-   
-  A dyno is the name Heroku use for a container, which is an isolated space for your application to run safely and securely.  A container runs on top of an operating system that may be shared with other containers.
+  A dyno is the name Heroku uses for a lightweight container, which is an isolated space for your application to run safely and securely.  A container runs on top of an operating system that may be shared with other containers.
   
-  Dyno's are therefore very quick to create and very quick to destroy when no longer needed.  This helps Heroku provide you with a highly scalable Infrastructure without passing on the complexity to you.
+  Dyno's are very quick to create and very quick to destroy when no longer needed (compared to virtual machines).  This helps Heroku provide you with a highly scalable infrastructure without passing on the complexity to you.
   
   When you send your application to Heroku for deployment, a single file is created that represents your application.  This file is called a Slug.  We store each version of the Slug that is created for your app and when you want to scale we copy the relevant slug to any new dynos we create for you.
   
