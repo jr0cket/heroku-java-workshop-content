@@ -89,6 +89,6 @@
   * [Foreman](extras/foreman.md)
   * [Custom domain names](extras/custom-domain-names.md)
   * [Collaborate with Github](extras/collaborate-with-github.md)
-  * [Dyno usage](process-model/dyno-usage.md)
+  * [Dyno usage](extras/dyno-usage.md)
 * [Gitbook Note types](note-types.md)
 * [Quiz example](quiz-example.md)
