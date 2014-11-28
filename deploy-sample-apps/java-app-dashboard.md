@@ -14,18 +14,24 @@
 
 ![Heroku sample app java - dashboard activity](../images/heroku-app-sample-java-dashboard-activity.png)
 
+  Each build item in the activity feed has a link to view the log for that build.  As a built can output many lines of text during a deployment, the build log is a convienient way to review any issues that may have occured during the build.
+  
+![Heroku sample app java - dashboard activity build log](../images/heroku-app-sample-java-dashboard-activity-build-log.png)
 
-![Heroku sample app java - dashboard ](../images/.png)
+  Click on the **Settings** tab to see infomation about your Heroku app.  
+  
+  Here you can see the region your application is deployed in, either US for the east coast USA data center or EU for the European data center in Ireland.  You can see the stack your app is running on, essentially the Heroku Operating System and associated infrastructure.
+  
+  Its important to keep an eye on the slug size of your application, as there are slug size limits and the bigger the slug the longer your build is likely to take.
 
-![Heroku sample app java - dashboard ](../images/.png)
+> **fixme** slug size limits link ?
 
-![Heroku sample app java - dashboard ](../images/.png)
+![Heroku sample app java - dashboard ](../images/heroku-app-sample-java-dashboard-settings-info.png)
 
-![Heroku sample app java - dashboard ](../images/.png)
+  You can see and edit the Configuration Variables for you Heroku app.
 
-![Heroku sample app java - dashboard ](../images/.png)
+![Heroku sample app java - dashboard ](../images/heroku-app-sample-java-dashboard-settings-config-variables.png)
 
-![Heroku sample app java - dashboard ](../images/.png)
-
-![Heroku sample app java - dashboard ](../images/.png)
-
+  You can also do other actions such as delete, rename, transfer ownership of your Heroku app.
+ 
+![Heroku sample app java - dashboard ](../images/heroku-app-sample-java-dashboard-settings-domain-ownership-delete.png)

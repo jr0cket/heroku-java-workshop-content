@@ -1,7 +1,5 @@
-### The Heroku workflow (behind the scenes)
+### Heroku behind the scenes
 
-  So what happens when I push my code to Heroku ?
-  
   Each time you push a new change (commit) to Heroku the following happens:
   
 ![Heroku deploy play app - simplified](../images/heroku-push-simple.png)
@@ -13,6 +11,7 @@
   * Your application is compiled if neccessary (using what ever build tool your project uses)
   * A single file called a **Slug** is created, this is your complete application ready to be started
   * Any addons that provisioned by the buildpack are added to the Slug (ie. database)
+  * Any configuration variables set for your app are added 
   * A dyno (a Linux container compute resource) is started and your Slug is loaded into the dyno.
   * Any processes defined in the `Procfile` for your project or processes defined in the buildpack for your langauge are started.
 

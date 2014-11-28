@@ -1,7 +1,5 @@
 # Deploying a sample Java app 
   
-> **Info** We show you these steps via the command line so you see the actual commands and parameters, however you are free to the Heroku dashboard to create apps and any Git client you prefer.
-  
 > **Note** Deploy a simple Java application from a Github repository using the following commands
 
   Copy the source code to your computer using git:
