@@ -1,0 +1,1758 @@
+<!DOCTYPE HTML>
+<html lang="en-US" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Tips on Cloning | Workshop: Play on Heroku</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 1.3.3">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    <link rel="next" href="../understanding-logging/index.html" />
+    
+    
+    <link rel="prev" href="../deploy-sample-apps/add-an-heroku-button.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+<link rel="stylesheet" href="../gitbook/style.css">
+
+    
+    <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-richquotes/plugin.css">
+    
+
+    
+    <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-exercises/exercises.css">
+    
+
+    
+    <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-quizzes/quizzes.css">
+    
+
+
+        
+    <div class="book" data-level="4.6" data-basepath=".." data-revision="1417696862565">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+    	
+    	
+    	
+
+        
+
+        
+    
+        
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                        <i class="fa fa-check"></i>
+                        
+                         Introduction
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1" data-path="heroku-overview/index.html">
+            
+                
+                    <a href="../heroku-overview/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                         Heroku Features in a nutshell
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="1.1" data-path="heroku-overview/developer-driven-deployment.html">
+            
+                
+                    <a href="../heroku-overview/developer-driven-deployment.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                         Developer Driven Deployment
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.2" data-path="heroku-overview/abstracting-infrastructure.html">
+            
+                
+                    <a href="../heroku-overview/abstracting-infrastructure.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                         Abstracting Infrastructure
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.3" data-path="heroku-overview/scalable-apps.html">
+            
+                
+                    <a href="../heroku-overview/scalable-apps.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                         Scaling Apps
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.4" data-path="heroku-overview/monitoring-performance.html">
+            
+                
+                    <a href="../heroku-overview/monitoring-performance.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                         Monitoring Performance
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.5" data-path="heroku-overview/addons.html">
+            
+                
+                    <a href="../heroku-overview/addons.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                         Addons
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.6" data-path="heroku-overview/heroku-status.html">
+            
+                
+                    <a href="../heroku-overview/heroku-status.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.6.</b>
+                        
+                         Heroku Status
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2" data-path="getting-started/index.html">
+            
+                
+                    <a href="../getting-started/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                         Getting Started
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="2.1" data-path="getting-started/heroku-account.html">
+            
+                
+                    <a href="../getting-started/heroku-account.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                         Heroku Account
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.2" data-path="getting-started/heroku-toolbelt.html">
+            
+                
+                    <a href="../getting-started/heroku-toolbelt.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                         Heroku Toolbelt
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.3" data-path="getting-started/authenticating-with-heroku.html">
+            
+                
+                    <a href="../getting-started/authenticating-with-heroku.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                         Authenticating with Heroku
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.4" data-path="getting-started/heroku-dashboard.html">
+            
+                
+                    <a href="../getting-started/heroku-dashboard.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                         Heroku Dashboard
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3" data-path="deploy-with-heroku-button/index.html">
+            
+                
+                    <a href="../deploy-with-heroku-button/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                         Deploying with Heroku Button
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4" data-path="deploy-sample-apps/index.html">
+            
+                
+                    <a href="../deploy-sample-apps/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                         Deploying Sample Apps
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="4.1" data-path="deploy-sample-apps/deploy-sample-java-app.html">
+            
+                
+                    <a href="../deploy-sample-apps/deploy-sample-java-app.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                         Deploy sample Java App
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.2" data-path="deploy-sample-apps/java-app-dashboard.html">
+            
+                
+                    <a href="../deploy-sample-apps/java-app-dashboard.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                         Java App Dashboard
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.3" data-path="deploy-sample-apps/behind-the-scenes.html">
+            
+                
+                    <a href="../deploy-sample-apps/behind-the-scenes.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                         Behind the scenes
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.4" data-path="deploy-sample-apps/deploy-a-new-change.html">
+            
+                
+                    <a href="../deploy-sample-apps/deploy-a-new-change.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.</b>
+                        
+                         Deploy a new change
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.5" data-path="deploy-sample-apps/add-an-heroku-button.html">
+            
+                
+                    <a href="../deploy-sample-apps/add-an-heroku-button.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.5.</b>
+                        
+                         Add an Heroku Button
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter active" data-level="4.6" data-path="deploy-sample-apps/tips-on-cloning.html">
+            
+                
+                    <a href="../deploy-sample-apps/tips-on-cloning.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.</b>
+                        
+                         Tips on Cloning
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5" data-path="understanding-logging/index.html">
+            
+                
+                    <a href="../understanding-logging/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                         Understanding Logging
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="5.1" data-path="understanding-logging/logging-from-your-app.html">
+            
+                
+                    <a href="../understanding-logging/logging-from-your-app.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                         Logging from your app
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.2" data-path="understanding-logging/real-time-logs.html">
+            
+                
+                    <a href="../understanding-logging/real-time-logs.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.</b>
+                        
+                         Real-time Logs
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.3" data-path="understanding-logging/long-term-logging.html">
+            
+                
+                    <a href="../understanding-logging/long-term-logging.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.</b>
+                        
+                         Long-term logging
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.4" data-path="understanding-logging/analysing-logs-with-papertrail.html">
+            
+                
+                    <a href="../understanding-logging/analysing-logs-with-papertrail.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.4.</b>
+                        
+                         Analysing logs with Papertrail
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.5" data-path="understanding-logging/common-error-messages.html">
+            
+                
+                    <a href="../understanding-logging/common-error-messages.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.5.</b>
+                        
+                         Common error messages
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="6" data-path="scaling-apps/index.html">
+            
+                
+                    <a href="../scaling-apps/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                         Scaling your app
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="6.1" data-path="scaling-apps/via-dashboard.html">
+            
+                
+                    <a href="../scaling-apps/via-dashboard.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.</b>
+                        
+                         Scaling via Dashboard
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="6.2" data-path="scaling-apps/via-toolbelt.html">
+            
+                
+                    <a href="../scaling-apps/via-toolbelt.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.2.</b>
+                        
+                         Scaling via Toolbelt
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7" data-path="process-model/index.html">
+            
+                
+                    <a href="../process-model/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                         Process Types
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="7.1" data-path="process-model/procfile.html">
+            
+                
+                    <a href="../process-model/procfile.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.1.</b>
+                        
+                         Procfile
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="8" data-path="releases-rollbacks/index.html">
+            
+                
+                    <a href="../releases-rollbacks/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.</b>
+                        
+                         Releases &amp; Rollbacks
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="8.1" data-path="releases-rollbacks/via-toolbelt.html">
+            
+                
+                    <a href="../releases-rollbacks/via-toolbelt.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.1.</b>
+                        
+                         Using Toolbelt
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="8.2" data-path="releases-rollbacks/dashboard-activitiy-log.html">
+            
+                
+                    <a href="../releases-rollbacks/dashboard-activitiy-log.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.2.</b>
+                        
+                         Dashboard Activity log
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="9" data-path="config-vars/index.html">
+            
+                
+                    <a href="../config-vars/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.</b>
+                        
+                         Configuration Variables
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="9.1" data-path="config-vars/procfile.html">
+            
+                
+                    <a href="../config-vars/procfile.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.1.</b>
+                        
+                         In the Procfile
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="9.2" data-path="config-vars/reading-variables-from-code.html">
+            
+                
+                    <a href="../config-vars/reading-variables-from-code.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.2.</b>
+                        
+                         Reading variables from code
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="10" data-path="heroku-postgres/index.html">
+            
+                
+                    <a href="../heroku-postgres/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.</b>
+                        
+                         Postgres DB on Demand
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="10.1" data-path="heroku-postgres/add-postgrest-to-app.html">
+            
+                
+                    <a href="../heroku-postgres/add-postgrest-to-app.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.1.</b>
+                        
+                         Adding Postgres to your app
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="10.2" data-path="heroku-postgres/update-play-app-to-use-postgres.html">
+            
+                
+                    <a href="../heroku-postgres/update-play-app-to-use-postgres.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.2.</b>
+                        
+                         Update Play App to use Postgres
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="10.3" data-path="heroku-postgres/postgres-tools.html">
+            
+                
+                    <a href="../heroku-postgres/postgres-tools.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.3.</b>
+                        
+                         Postgres Tools
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="10.4" data-path="heroku-postgres/run-db-scripts-remotely.html">
+            
+                
+                    <a href="../heroku-postgres/run-db-scripts-remotely.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.4.</b>
+                        
+                         Run Db scripts remotely
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="10.5" data-path="heroku-postgres/loading-data.html">
+            
+                
+                    <a href="../heroku-postgres/loading-data.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.5.</b>
+                        
+                         Loading Data
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="10.6" data-path="heroku-postgres/follower-database.html">
+            
+                
+                    <a href="../heroku-postgres/follower-database.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.6.</b>
+                        
+                         Follower Database
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="10.7" data-path="heroku-postgres/forking-a-database.html">
+            
+                
+                    <a href="../heroku-postgres/forking-a-database.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.7.</b>
+                        
+                         Forking a Database
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="10.8" data-path="heroku-postgres/rollback.html">
+            
+                
+                    <a href="../heroku-postgres/rollback.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.8.</b>
+                        
+                         Rolling back
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="10.9" data-path="heroku-postgres/backup-restore.html">
+            
+                
+                    <a href="../heroku-postgres/backup-restore.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.9.</b>
+                        
+                         Backup and Restore
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="10.10" data-path="heroku-postgres/dataclips.html">
+            
+                
+                    <a href="../heroku-postgres/dataclips.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.10.</b>
+                        
+                         Sharing Database queries
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="11" data-path="scheduling-tasks/index.html">
+            
+                
+                    <a href="../scheduling-tasks/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.</b>
+                        
+                         Scheduling tasks
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="11.1" data-path="scheduling-tasks/one-off-tasks.html">
+            
+                
+                    <a href="../scheduling-tasks/one-off-tasks.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.1.</b>
+                        
+                         One-off tasks
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="11.2" data-path="scheduling-tasks/heroku-scheduler.html">
+            
+                
+                    <a href="../scheduling-tasks/heroku-scheduler.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.2.</b>
+                        
+                         Heroku Scheduler
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="11.3" data-path="scheduling-tasks/long-running-tasks.html">
+            
+                
+                    <a href="../scheduling-tasks/long-running-tasks.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.3.</b>
+                        
+                         Long running tasks
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="12" data-path="multiple-environments/index.html">
+            
+                
+                    <a href="../multiple-environments/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>12.</b>
+                        
+                         Multiple environments
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="12.1" data-path="multiple-environments/create-a-staging-environment.html">
+            
+                
+                    <a href="../multiple-environments/create-a-staging-environment.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>12.1.</b>
+                        
+                         Create a staging environment
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="12.2" data-path="multiple-environments/tracing-deployment-with-git-log.html">
+            
+                
+                    <a href="../multiple-environments/tracing-deployment-with-git-log.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>12.2.</b>
+                        
+                         Tracing deployment
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="12.3" data-path="multiple-environments/managing-multiple-environments.html">
+            
+                
+                    <a href="../multiple-environments/managing-multiple-environments.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>12.3.</b>
+                        
+                         Managing multiple environments
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="12.4" data-path="multiple-environments/create-a-staging-database.html">
+            
+                
+                    <a href="../multiple-environments/create-a-staging-database.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>12.4.</b>
+                        
+                         Create a staging database
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="12.5" data-path="multiple-environments/deploy-a-branch-other-than-master.html">
+            
+                
+                    <a href="../multiple-environments/deploy-a-branch-other-than-master.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>12.5.</b>
+                        
+                         Deploy a branch other than master
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="13" data-path="collaborating/index.html">
+            
+                
+                    <a href="../collaborating/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>13.</b>
+                        
+                         Collaborating around apps
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="13.1" data-path="collaborating/github.html">
+            
+                
+                    <a href="../collaborating/github.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>13.1.</b>
+                        
+                         Github
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="13.2" data-path="collaborating/heroku-orgs.html">
+            
+                
+                    <a href="../collaborating/heroku-orgs.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>13.2.</b>
+                        
+                         Heroku Orgs
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="14" data-path="performance-monitoring/index.html">
+            
+                
+                    <a href="../performance-monitoring/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>14.</b>
+                        
+                         Performance Monitoring
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="14.1" data-path="performance-monitoring/heroku-metrics.html">
+            
+                
+                    <a href="../performance-monitoring/heroku-metrics.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>14.1.</b>
+                        
+                         Heroku app metrics
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="14.2" data-path="performance-monitoring/heroku-postgres-metrics.html">
+            
+                
+                    <a href="../performance-monitoring/heroku-postgres-metrics.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>14.2.</b>
+                        
+                         Heroku Postgres metrics
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="14.3" data-path="performance-monitoring/new-relic.html">
+            
+                
+                    <a href="../performance-monitoring/new-relic.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>14.3.</b>
+                        
+                         New Relic
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="15" data-path="new-play-app/index.html">
+            
+                
+                    <a href="../new-play-app/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>15.</b>
+                        
+                         New Play App Workflow
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="15.1" data-path="new-play-app/create-play-app.html">
+            
+                
+                    <a href="../new-play-app/create-play-app.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>15.1.</b>
+                        
+                         Create a Play App from Template
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="15.2" data-path="new-play-app/manage-with-git.html">
+            
+                
+                    <a href="../new-play-app/manage-with-git.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>15.2.</b>
+                        
+                         Manage code with Git
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="15.3" data-path="new-play-app/create-heroku-app.html">
+            
+                
+                    <a href="../new-play-app/create-heroku-app.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>15.3.</b>
+                        
+                         Create an Heroku app
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="15.4" data-path="new-play-app/deploy-app.html">
+            
+                
+                    <a href="../new-play-app/deploy-app.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>15.4.</b>
+                        
+                         Deploy your App
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="16" data-path="salesforce/index.html">
+            
+                
+                    <a href="../salesforce/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>16.</b>
+                        
+                         Salesforce Integration
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="16.1" data-path="salesforce/heroku-connect.html">
+            
+                
+                    <a href="../salesforce/heroku-connect.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>16.1.</b>
+                        
+                         Heroku Connect
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="16.2" data-path="salesforce/salesforce-apis.html">
+            
+                
+                    <a href="../salesforce/salesforce-apis.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>16.2.</b>
+                        
+                         Salesforce APIs
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="16.3" data-path="salesforce/trusted-apps.html">
+            
+                
+                    <a href="../salesforce/trusted-apps.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>16.3.</b>
+                        
+                         Trusted Apps
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="16.4" data-path="salesforce/canvas.html">
+            
+                
+                    <a href="../salesforce/canvas.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>16.4.</b>
+                        
+                         Salesforce Canvas
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="17" data-path="next-steps/index.html">
+            
+                
+                    <a href="../next-steps/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>17.</b>
+                        
+                         Next Steps
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="18" data-path="extras/index.html">
+            
+                
+                    <a href="../extras/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>18.</b>
+                        
+                         Extras
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="18.1" data-path="extras/foreman.html">
+            
+                
+                    <a href="../extras/foreman.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>18.1.</b>
+                        
+                         Foreman
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="18.2" data-path="extras/custom-domain-names.html">
+            
+                
+                    <a href="../extras/custom-domain-names.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>18.2.</b>
+                        
+                         Custom domain names
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="18.3" data-path="extras/collaborate-with-github.html">
+            
+                
+                    <a href="../extras/collaborate-with-github.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>18.3.</b>
+                        
+                         Collaborate with Github
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="18.4" data-path="extras/dyno-usage.html">
+            
+                
+                    <a href="../extras/dyno-usage.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>18.4.</b>
+                        
+                         Dyno usage
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="19" data-path="continuous-integration/index.html">
+            
+                
+                    <a href="../continuous-integration/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>19.</b>
+                        
+                         Continuous Integration workflow
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="19.1" data-path="continuous-integration/using-travis.html">
+            
+                
+                    <a href="../continuous-integration/using-travis.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>19.1.</b>
+                        
+                         Using Travis
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="19.2" data-path="continuous-integration/using-jenkins.html">
+            
+                
+                    <a href="../continuous-integration/using-jenkins.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>19.2.</b>
+                        
+                         Using Jenkins
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="19.3" data-path="continuous-integration/using-codeship.html">
+            
+                
+                    <a href="../continuous-integration/using-codeship.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>19.3.</b>
+                        
+                         Codeship
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="20" data-path="note-types.html">
+            
+                
+                    <a href="../note-types.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>20.</b>
+                        
+                         Gitbook Note types
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="21" data-path="quiz-example.html">
+            
+                
+                    <a href="../quiz-example.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>21.</b>
+                        
+                         Quiz example
+                    </a>
+                
+            
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Published using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    
+    <a href="../GLOSSARY.html" class="btn pull-left" aria-label="Open Glossary"><i class="fa fa-sort-alpha-asc"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle share dropdown"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">Twitter</button>
+                <button type="button" data-sharing="google-plus" class="button">Google</button>
+                <button type="button" data-sharing="facebook" class="button">Facebook</button>
+                <button type="button" data-sharing="weibo" class="button">Weibo</button>
+                <button type="button" data-sharing="instapaper" class="button">Instapaper</button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Workshop: Play on Heroku</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-gitbook_17">
+                    
+                        <h1 id="tips-on-cloning-repositories-with-git">Tips on Cloning repositories with Git</h1>
+<p>  Here are some basic tips on cloning repositories, either your own or other public repositories.</p>
+<h2 id="clone-from-existing-heroku-apps">Clone from existing Heroku Apps</h2>
+<p>  If you are a collaborator on an Heroku app (ie. you created the app or someone added you) then you can access that apps code using the Heroku toolbelt.  In the <strong>Code</strong> section of the Heroku dashboard are details on how to <em>clone the repository</em> using the <code>heroku git</code> command.  The <code>-a</code> option is for specifying the name of the app you wish to clone.  </p>
+<p>  For example, if you are a contributor on the sample-play-app, you would clone the Heroku repository using the command:</p>
+<pre><code>heroku git:clone -a sample-play-app
+</code></pre><p>  Once you have cloned the Heroku repository, you can use the usual Git commands.</p>
+<hr>
+<h2 id="cloning-from-github-repositories">Cloning from Github repositories</h2>
+<p>  To get the code from a remote repository, such as Github, we use a command called <em>clone</em>.  This takes a complete copy of the Github repository, including all the history of changes.</p>
+<pre><code>git clone &lt;repository-url&gt;
+</code></pre><p>  The above command creates a link in your local repository to the remote repository.  This link is given the alias <code>origin</code> by default.  So instead of refering to the cloned repository by its URL, you can use <code>origin</code>.</p>
+<p>  So if you want to get updates from the remote repository you can use the following command:</p>
+<pre><code>git pull origin master
+</code></pre><p>  Here we are getting any updates from the remote repositories master branch.</p>
+<h4 id="viewing-your-remote-repositories">Viewing your remote repositories</h4>
+<p>  You can see which remote repositories are linked to your local repository using the <code>git remote</code> command in your local repository.  The following command lists all the remote repositories, their aliases and their full URL:</p>
+<pre><code>git remote --verbose
+</code></pre><h4 id="setting-your-own-alias-name">Setting your own alias name</h4>
+<p>  You can also specify your own alias should you wish, either while cloning the repository or using the <code>git remote</code> command:</p>
+<pre><code>git clone jr0cket &lt;repository-url&gt;
+
+git remote rename origin jr0cket
+</code></pre><h4 id="specifying-a-directory">Specifying a directory</h4>
+<p>  When you clone a repository, a new directory is created using the name of the remote repository.  So if your repository is called <code>sample-app-java</code> then the directory created will also be <code>sample-app-java</code>. </p>
+<p>  You can also specify the name of the directory the repository is copied into: </p>
+<pre><code>git clone &lt;sample-app-url&gt; basic-java-app
+</code></pre><blockquote class="clearfix alert alert-success"><strong class="fa fa-4x fa-lightbulb-o"></strong>
+<p> See the online documentation for <a href="http://git-scm.com/docs/git-clone" target="_blank">Git Clone</a> for more details</p>
+</blockquote>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../deploy-sample-apps/add-an-heroku-button.html" class="navigation navigation-prev " aria-label="Previous page: Add an Heroku Button"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../understanding-logging/index.html" class="navigation navigation-next " aria-label="Next page: Understanding Logging"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-disqus/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-exercises/ace/ace.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-exercises/ace/theme-tomorrow.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-exercises/ace/mode-javascript.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-exercises/exercises.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-quizzes/quizzes.js"></script>
+    
+
+    
+    <script src="https://cdn.mathjax.org/mathjax/2.4-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2},"disqus":{"shortName":"play-heroku-workshop"},"richquotes":{"todos":true}};
+    gitbook.start(config);
+});
+</script>
+
+        <script src="../gitbook/plugins/gitbook-plugin-exercises/jsrepl/jsrepl.js" id="jsrepl-script"></script>
+    </body>
+    
+</html>
