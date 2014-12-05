@@ -1,8 +1,6 @@
 # New Relic for Monitoring Performance 
 
-> TODO: This article is old, so probably needs updating.  More images required too.
-
-> This is a 3rd Party addon so you will need an Heroku account that has been [verified](https://heroku.com/verify)
+> **Warning** This is a 3rd Party addon so you will need an Heroku account that has been [verified](https://heroku.com/verify) before you can use it.
 
   With the New Relic Heroku Add-on you can easily setup application performance monitoring and reporting.  This chapter will teach you how to add New Relic to your application.
 

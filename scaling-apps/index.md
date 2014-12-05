@@ -24,7 +24,3 @@
   
 > **Info** Auto-scaling services are availble from the Heroku marketplace.  To use that kind of service effectively you still need to understand performance and useage patterns for your app.
 
----
-
- 
- 

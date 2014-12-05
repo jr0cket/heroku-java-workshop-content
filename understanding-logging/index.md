@@ -1,22 +1,34 @@
 # Understanding Logging 
 
-> define how logging works on Heroku 
+  Heroku uses a unified logging approach for your Heroku app called [Logplex](https://devcenter.heroku.com/articles/logplex).  This means that all the logs from your application, Heroku API and Infrastructure is in one continuous stream.  Having all the logging information in one place in time-order makes diagnosing an issue much faster and it is easier to understand the root cause of the issue.
 
-  * Unified Logging
-  * Filters for different sources of logs (apps, apis, system)
+  To see the unified logs for your application, use the following command:
+  
+    heroku logs
+  
+  When you want to drill down into a particular area, say just your application logs, then you can use one of the following options to fillter out the other messages. 
+  
+  * `--source app` - logs generated from within your application, application server and libraries.
 
-  Heroku stores 1500 lines of logs for every one of your applications. The full log stream is also available as a service and there are sevral logging services in the [Heroku Addons](https://addons.heroku.com/?q=log) that provide things such as log persistence, search and condition based alerts (email, sms).
+  * `--source heroku` - actions taken by the Heroku platform infrastructure on behalf of your app, eg. restarting crashed processes, sleeping or waking a dyno, serving an error page due to a problem in your app.
+  
+  * `--source heroku --ps api` - actions taken by developers & tools working on your app, eg. deploying new code, scaling dynos, toggling maintenance mode.
+    
 
-## Application Logging
+> **Comment**  It is important to understand how to write logs from your application to the Heroku Logplex, so this section will show you how.  
 
-> TODO: define the approach to take for application logging for apps running on Heroku 
+## Log format 
 
-  How to you get your app to write logs 
+  Each line of the Heroku Log is formatted as follows:
 
+    timestamp source[dyno]: message
 
-## Addon logging 
+  * `timestamp` -  date & time recorded, according to the dyno or component. The timestamp is in [RFC5424](http://www.rfc-base.org/rfc-5424.html) format and includes microsecond precision.
+  
+  * `source` - where the log message has come from (see the sources above)
+  
+  * `dyno` - name of the dyno or component that wrote this log message. For example, web dyno number 3 appears as `web.3`, the Heroku HTTP router appears as `router`.
+  
+  * `message` - the message itself, split every 10,000 bytes and submitted as a separate log line.
 
-> **fixme** do logs from addons also feed into the Heroku logs, not at all or on a case by case basis ?
-
-
-
+![Heroku Logs example](../images/heroku-logs-tail-app-sample-java-initial-deploy.png)

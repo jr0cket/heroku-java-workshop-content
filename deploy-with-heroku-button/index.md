@@ -5,11 +5,11 @@
   The **Deploy to Heroku** button enables anyone with an Heroku accout to deploy an app via the web browser, and with little or no configuration. The button is ideal for add-on providers and open-source project maintainers who wish to provide customers with a quick and easy way to deploy their project or sample apps.
 
   To demonstrate just how easy deployment should be, deploy one or more of the following sample applications using Heroku button
-
-> **fixme** add remaining links
   
-  * [Bare bones Node.js app](https://github.com/ccoenraets/salesforce-canvas-demo)
+  * [Bare bones Node.js app](https://github.com/heroku/button-sample)
   * [A simple Iconic app](https://github.com/driftyco/ionic-heroku-button)
+  * [Simple Play CRUD application](https://github.com/mkbehbehani/play-heroku-seed)
+  * [Web Words](https://github.com/typesafehub/webwords) - example Akka/Scala application on Heroku, created by Typesafe
   * [QuizLive Mobile Template](https://github.com/heroku/mobile-template1) - mobile app template using Node.js & Angular.js
   * [Salesforce Canvas Demo](https://github.com/ccoenraets/salesforce-canvas-demo) - requires a Salesforce Org.
   * [Nibs - a customer loyalty app](https://github.com/heroku/nibs)

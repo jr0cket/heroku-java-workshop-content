@@ -17,6 +17,5 @@
     git push my-app-branchname dev:master
 
 
-  
-> If you push a branch other than `master` to Heroku, the push will be successful, however you will not trigger the deployment process for the code in that branch.  A new version of your app will not be created or deployed.
+> **Comment** If you push a branch other than `master` to Heroku, the push will be successful, however you will not trigger the deployment process for the code in that branch.  A new version of your app will not be created or deployed.
 

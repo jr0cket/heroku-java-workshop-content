@@ -17,11 +17,11 @@
 
 #### Addition details about Java apps
 
-  More specifically in the case of a Java application, the established environment is OpenJDK and the build tool is Maven is installed.  Maven then resolves the project dependencies and builds your source code into an app.
+  More specifically in the case of a Java application, the established environment is OpenJDK and the Maven build tool is installed.  Maven then resolves the project dependencies and builds your source code into an app.
   
 ![Heroku deploy play app - simplified](../images/heroku-push-java.png)
 
-> **Info** Heroku has a mirror of many of the common dependencies used for each of its supported languates.  This mirror is used by buildpacks to speed up the deployment process.  
+> **Info** Heroku has a mirror of many of the common dependencies used for each of its supported languages.  This mirror is used by buildpacks to speed up the deployment process.  
 
 > Dependencies are also cached between deploys to save downloading the Internet on each deploy.
 

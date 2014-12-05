@@ -2,40 +2,21 @@
 
 If you need your apps to scale then you need to understand as many aspects of your applications performance as you can.
 
+  Its essential that any process listening to web requests responds quickly, anything more than 500ms per response is a cause for concern.  To help ensure fast response times, only the work required to generate the response should be carried out in the web processes. Everything else should be pushed into a background process.
+  
+  To help you understand how well your application is performing, Heroku has added metrics to the dashboard for any app running 2 or more dynos.
+
 ![Heroku Dashboard Metrics for your application](../images/heroku-dashboard-monitoring-example.png)
 
-Heroku provides metrics around your app as well as database queries when using Heroku Postgres database.
+Heroku also provides metrics around your database queries when using Heroku Postgres database.
 
 ![Heroku Dashboard Metrics for Postgres](../images/heroku-dashboard-postgres-dbx-example.png)
 
 ---
 
-### Addons for Performance Metrics 
+### Addons for Monitoring your apps
 
-> **fixme** add brief section on performance metrics addons such as New Relic and ???
+  There are a large number of [monitoring services in the Heroku addons](https://addons.heroku.com/?q=monitor), some are tailored to specific languages or monitoring aspects.  Each service is well described in its own page on Heroku addons.
 
-New Relic...
+![Heroku Addons - monitoring](../images/heroku-addons-monitor.png)
 
-
-
-## Advanced stuff
-
-From http://dojo-curriculum.herokuapp.com/modules/running-production-applications.html
-
-> **fixme** some advanced aspects of application performance.  Make this a seperate section ?  Elaborate
-
-Explain why it is imperative that a web process responds quickly.
-
-Explain that more than 500ms per response is a cause for concern.
-
-Explain that only the work required to generate the response should be carried out in the web processes. Everything else should be pushed into a background process.
-
-Talk about request queuing when concurrency isn't high enough.
-
-Talk about what causes the H12 error (long running requests, and request queueing).
-
-Explain that once an H12 error has fired, the process is still running (the request is disconnected at the router).
-
-Talk about the compound effect that can occur with slow running requests, that then build into a problem with H12s. Mention that this does not only relate to slow requests, but can affect relatively fast applications under the correct conditions.
-
-Talk about Rack-Timeout for Ruby applications where applicable.

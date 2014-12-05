@@ -1,32 +1,21 @@
-# Using Heroku Postgres database 
+# Heroku Postgres - database on demand 
   
-  Postgres is a very impressive database and has a very wide range of features. Postgres is also a very active active open source project, with a long history.  Heroku wrapped the same kind of developer focused services around Postgress, making it really easy to use.
+  Postgres is a very impressive database with a very wide range of features, its also a very active open source project with a long history.  [Heroku Postres](https://www.heroku.com/postgres) has wrapped the same kind of developer focused services around Postgres to make it really easy to use.
 
-  With Heroku Postgres you can use this database along with your application or as a standalone database (Postgress as a Service).
-
-  Read more about [Heroku Postress](http://postgres.heroku.com/) 
+![Heroku Postgres features](../images/heroku-postgres-features-concept.png)
   
+  With [Heroku Postgres](https://www.heroku.com/postgres) you can provision a database instantly, just like you can with any other addon service.
+
+  When deploying Java applications, a Postgres database is automatically added.  So in your sample application you can see Heroku Postgres as an addon that is aready provisioned.
+
+> **Comment** [Heroku Postress](http://postgres.heroku.com/) can be added to your Herokup application or run as a standalone database.
   
-## Add Postgress Driver to the application
 
-  To use Heroku Postgres as the database for our Play application, we need to specify a library that contains the driver used to access the database.
+### Working with Postress
 
-  Add the required driver to the application dependencies in the `project/Build.scala` file (this file may need to be created):
-
-> Read more about [Dependencies managementin the Play framework](http://playframework.com).
-   
-
-> TODO: can we push at this stage or should we change the Procfile to include paramters for the app or DB
-
-
-## Understanding Postgres usage
-
-* Postgres config
-* Postgress size 
-
-`heroku pg:info`
-
-Add a follower database and time that with the following command:
-
-`heroku pg:wait`
+  Postgres can be used from you application just like any other database.  So you specify a driver and add code to your app to query the database.
+  
+  Heroku provides you with the database connection details in a configuration variable called DATABASE_CONFIG.  You can also see details of your database from the Heroku dashboard or via the Heroku command line.
+  
+  You can also use the Heroku connection details to connect your own database clients.
 

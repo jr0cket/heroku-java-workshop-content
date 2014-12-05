@@ -8,24 +8,30 @@ You get into the following cycle:
     git commit -m "message"
     git push heroku master
 
-> **fixme** Diagram of this workflow...
+![Heroku - simple continuous deployment](../images/heroku-continuous-development-simple.png)
 
 ## Modify your project
 
-  To demonstrate this workflow around Git and Heroku, lets make a simple change to the new application.  As its simple you can just use any editor you want, you dont need to set up an IDE as yet (we will do that later).
+> **Note** To demonstrate this workflow around Git and Heroku, lets make a simple change to the new application.  As its simple you can just use any editor you want, you dont need to set up an IDE (although you can if you want).
 
-In the source code file `foobar.java` change the content of the response:
+In the source code file `src/main/java/Main.java` change the content of the response to be the following (we are only changing the text returned, so you can put in there anything you prefer):
 
-> **fixme** add code example here
+```
+  private void showHome(HttpServletRequest req, HttpServletResponse resp)
+      throws ServletException, IOException {
+    resp.getWriter().print("<h1>Hello from my wonderful Java app!</h1>");
+  }
+
+```
+  Save the file.
 
 ## Commit your changes locally
 
   As you have made a change to your project, commit that change so that its under version control by git.
 
     git add .
-    git commit -m "result returning hello world"
+    git commit -m "modified the default return message"
 
-> TODO: another diagram
 
 ## Push your changes to Heroku
 
@@ -33,9 +39,24 @@ In the source code file `foobar.java` change the content of the response:
 
     git push heroku master
 
-  This time the deployment should be much quicker as the dependencies are cached [TODO: check this is correct] build tool does not need to bring in any additional library dependencies.
+  This time the deployment should be quicker (half the time of the original deployment in the screenshot below).  Heroku caches dependencies between builds so the build tool does not need to download them again.
 
-> Optionally you can open a second terminal window and run the command `heroku logs --tail` to see what is happening to your app once it succesfully deploys.
+![Heroku - second deployment](../images/heroku-app-sample-java-second-deploy.png)
 
+  Now the new version of your app is deployed, either refresh your browser that displays you live appliction or use `heroku open` from the command line.
 
-  Either refresh your browser that displays you live appliction or use `heroku open` from the command line.
+> **Comment** If you want to understand more of what is happening to your running app during a deploy, you can open a second terminal window and run the command `heroku logs --tail`.
+
+![Heroku logs tail - deploy new app version](../images/heroku-logs-tail-app-sample-java-second-deploy.png)
+
+  Logging is covered in more detail in the [Understanding Logging](/understanding-logging) section.
+
+---
+
+> **Hint** This change has been added to the `new-welcome-message` branch of the repository you cloned.  So instead of creating the file you can also checkout the branch and merge it into the master branch.  Then push the change merged into master to Heroku.
+
+    git checkout new-welcome-message
+    git checkout master
+    git merge new-welcome-message
+    git push heroku master
+

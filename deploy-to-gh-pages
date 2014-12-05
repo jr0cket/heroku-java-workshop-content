@@ -5,5 +5,5 @@
 # This should only be run from the root of the gitbook project
 # Replace the remote Github URL to use this on a different project
 
-cd _book && git init && git add . && git commit -m "initial commit" && git branch -m master gh-pages && git remote add jr0cket git@github.com:jr0cket/play-heroku-workshop.git && git push -f jr0cket gh-pages
+cd _book && git init && git add . && git commit -m "initial commit" && git branch -m master gh-pages && git remote add agileforce git@github.com:agileforce/heroku-workshop.git && git push -f agileforce gh-pages
 

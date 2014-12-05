@@ -1,26 +1,27 @@
 # Releases & Rollbacks
 
-  As its so quick and easy to deploy to heroku it is a great platform for agile development and continuous deployment.  With a simple git push you can new features, change the way the application looks as well as add more features.
+  As its so quick and easy to deploy to heroku it is a great platform for continuous deployment. 
   
-  As typically there are many releases of a application, Heroku gives you a very easy way to see what releases have been made.  As software development is still a human activity then errors are inevitable, so Heroku provides an effective way carry out rollbacks to keep your site live.
+  Typically there are many releases of your application, so Heroku gives you a very easy way to see what releases have been made.  As software development is still a human activity then errors are inevitable, so Heroku provides an effective way carry out rollbacks to keep your site live.
+
+  An application rollback can be done in seconds, allowing time for a root cause analysis of any issues that occur with a new release.  Once the cause of issue has been identified it can be fixed locally and pushed to Heroku as a new release. 
+
+#### What is a release
+
+  A release is composed of 
+
+* a Slug - the assembled application, ready to be run on a dyno
+* all Configuration Variables for your application
 
 
-## Working with releases
+#### What triggers a new release
 
-  To see your current list of releases for your application, use the following command within your project folder:
-
-    heroku releases
-
-  You should already have several release for your application, even if you have only done one or two pushes.  When you created your application uisng `heroku create` then several releases took place automatically.
-
-  Your release history should look similar to the following:
+  It is important to understand what triggers a new release on Heroku.  As well as using `git push` for deploying a new version of your app, the following actions also create a new release.
   
-> TODO: pictures of the new activity log
-  
-  Notice that each relase is related to a commit number used in Git.  This commit number gives you traceabitliy between your version control system and your deployed appliations.
-  
-  You can also dig deeper and see more details about latest release or any specific release using the following commands: 
+* Updating configuration variables, eg. `heroku config:add DB_URL=https://postgres.heroku.com/ofipie8ufdhh`
 
-    heroku releases:info
-    heroku releases:info v24
+* Provisioning an Heroku add-on, eg. `heroku addon:postgres`
 
+* A Rollback - switching to a previous release if there is an issue with the latest release.
+
+![Heroku Release](../images/heroku-release.png)

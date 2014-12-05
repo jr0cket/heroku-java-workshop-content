@@ -22,9 +22,7 @@
   
   Here you can see the region your application is deployed in, either US for the east coast USA data center or EU for the European data center in Ireland.  You can see the stack your app is running on, essentially the Heroku Operating System and associated infrastructure.
   
-  Its important to keep an eye on the slug size of your application, as there are slug size limits and the bigger the slug the longer your build is likely to take.
-
-> **fixme** slug size limits link ?
+  Its important to keep an eye on the slug size of your application, as there are slug size [limits](https://devcenter.heroku.com/articles/slug-compiler#slug-size) (300MB max) and the bigger the slug the longer your build is likely to take.
 
 ![Heroku sample app java - dashboard ](../images/heroku-app-sample-java-dashboard-settings-info.png)
 

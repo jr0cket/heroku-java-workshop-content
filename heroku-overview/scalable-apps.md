@@ -29,6 +29,7 @@
   To make the most of the Heroku platform, you should gain a deeper appreciation of Heroku and its constraints
 
   * [How Heroku works](https://devcenter.heroku.com/articles/how-heroku-works)
+  * [Heroku Limits overview](https://devcenter.heroku.com/articles/limits)
   * [Dyno sizes](https://devcenter.heroku.com/articles/dyno-size) and [optomisation of dyno usage](https://devcenter.heroku.com/articles/optimizing-dyno-usage)
   * [Avoiding request timeouts](https://devcenter.heroku.com/articles/request-timeout) and maintaining sub 500ms response times
   * [Heroku error codes](https://devcenter.heroku.com/articles/error-codes)

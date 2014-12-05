@@ -1,6 +1,6 @@
 
 # Configuration Variable
-Hmmm...
+Devfine environment variable such as $PORT to seperate configuration from your codebase.  Useful for configuring database connections for seperate environments (test, staging, production).
 
 # Dyno
 An abstract way of refering to the compute resources assigned to your app.  Heroku is a lightweight container-based system, avoiding the need for you to manage and maintain servers.

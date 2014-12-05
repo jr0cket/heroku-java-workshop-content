@@ -1,10 +1,10 @@
 # Analysing Logs with Papertrail
 
-> TODO: This section may be out of date and needs reviewing
+> **Note** Search your application's logs & set alerts for specific searches using the Papertrail service from Heroku addons.
 
-  This chapter will teach you how to add the Paptertrail Heroku Add-on to your application.  Papertrail provides a robust web interface for searching your application's logs and setting alerts for specific searches.
+---
 
-> Papertrail requires your Heroku account to be validated before you can add it to your application.  To verify your Heorku account, visit https://heroku.com/verify
+> **Warning** Papertrail is a 3rd party addon and therefore requires your Heroku account to be validated before you can add it to your application.  To verify your Heorku account, visit https://heroku.com/verify
 
 To add the Papertrail Add-on:
 

@@ -1,10 +1,10 @@
-# Workshop: Play on Heroku
+# Heroku Workshop
 
 ![Heroku Logo](images/heroku-concept.png)
 
   [Heroku](https://www.heroku.com) gives developers an easy way deploy, scale and monitor applications without the need for extensive DevOps training or tooling.
 
-  This workshop will guide you through the many features of Heroku using a relatively simple application, created with Java, the Play framework and Postgres database.  Examples of using Heroku with other languages and frameworks are also included and you are encouraged to try out your own projects on Heroku too.
+  This workshop will guide you through the many features of Heroku using a relatively simple Java application and Postgres database.  Examples of using Heroku with other languages and frameworks are also included and you are encouraged to try out your own projects on Heroku too.
 
 > **Info**  All the source code for the applications you deploy is provided.  Expertise with any of the languages or frameworks used is not required, unless of course you want to develop any of the sample applications further.
 
@@ -21,6 +21,14 @@
   The Glossary of terms is accessed via the _AZ_ icon.  Each term defined in the glossary is underlined in the workshop.  Hovering over the term gives the definition, clicking on the underlined term take you to the term in the glossary page.
 
   A search on the site will show you the list of pages that hold the search term in the sidebar.
+
+## Heroku Success stories 
+
+  There are many successful customer stories on [success.heroku.com](https://success.heroku.com) that you can read about.  Here are two short videos highlighting the success from two different customers:
+  
+  * [Toyota Europe](http://www.youtube.com/watch?v=PFm9d-n3QBk) - developing a series of websites across Europe, tailored to the individual needs of the consumers in each contry.
+  
+  * [Westfield](http://www.youtube.com/watch?v=N5krwMeabOc) - a global shopping center company building customer experience apps.  Taking on many legacy applications they either migrated or retired those apps and moved from a slow waterfall process to a more agile and innovation driven approach.  
 
 ## Heroku - Platform as a Service (PaaS)
 
@@ -50,7 +58,7 @@
 
 | Author | Date | Contact
 | -- | -- | -- |
-|John Stevenson | November 2014 | [@jr0cket](https://twitter.com/jr0cket)
+|John Stevenson | Thu 04 Dec 2014 12:56:26 GMT | [@jr0cket](https://twitter.com/jr0cket)
 
 
 
