@@ -74,7 +74,9 @@
 
 ---
 
-> **Hint** This change has been added to the `reading-configuration-variables` branch of the repository you cloned.  So instead of creating the file you can also checkout the branch and merge it into the master branch.  Then push the change merged into master to Heroku.
+## Alternatively...
+
+> **Hint** All the changes above are also in a branch of the Git repository you initially cloned.  So, as an alternative to the above, you can checkout the branch `reading-configuration-variables` and merge it into the master branch.  Then push the change merged into master to Heroku.
 
     git checkout reading-configuration-variables
     git checkout master

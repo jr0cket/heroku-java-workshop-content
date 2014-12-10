@@ -4,7 +4,7 @@
 
 ![Heroku deploy play app - simplified](../images/heroku-push-simple.png)
 
-  In this section we will development a Java application and deployment deploy it to Heroku.  Along the way you will have a better appreciation of how Heroku works. 
+  In this section we will develop a Java application and deployment deploy it to Heroku.  Along the way you will have a better appreciation of how Heroku works. 
   
   Apart from language specific differences, i.e. build tools & processes, Heroku works the same for all other languages and frameworks.  So you can use one of the other sample apps if you prefer, or even use your own projects.
 
