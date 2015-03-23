@@ -7,6 +7,7 @@
   To demonstrate just how easy deployment should be, deploy one or more of the following sample applications using Heroku button
   
   * [Bare bones Node.js app](https://github.com/heroku/button-sample)
+  * [Simple shout-out app in Clojure](https://github.com/jr0cket/shouter)
   * [A simple Iconic app](https://github.com/driftyco/ionic-heroku-button)
   * [Simple Play CRUD application](https://github.com/mkbehbehani/play-heroku-seed)
   * [Web Words](https://github.com/typesafehub/webwords) - example Akka/Scala application on Heroku, created by Typesafe
