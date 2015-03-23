@@ -82,6 +82,7 @@
     * [Using Travis](continuous-integration/using-travis.md)
     * [Using Jenkins](continuous-integration/using-jenkins.md)
     * [Codeship](continuous-integration/using-codeship.md)
+  * [How do you deploy your apps](how-do-you-deploy-your-apps.md)
   * [Gitbook Note types](note-types.md)
   * [Quiz example](quiz-example.md)
   
