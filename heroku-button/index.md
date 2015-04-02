@@ -4,7 +4,7 @@
 
   The **Heroku button** enables anyone with an Heroku account to deploy an app via the web browser, with little or no configuration. The Heroku button is ideal for add-on providers and open-source project maintainers who wish to provide customers with a quick and easy way to deploy their project or sample apps.
 
-  To demonstrate just how easy deployment should be, deploy one or more of the following sample applications using Heroku button
+> **Note** To demonstrate just how easy deployment should be, deploy one or more of the following sample applications using Heroku button
   
   * [Bare bones Node.js app](https://github.com/heroku/button-sample)
   * [Simple shout-out app in Clojure](https://github.com/jr0cket/shouter)
