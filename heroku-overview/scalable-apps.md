@@ -4,11 +4,13 @@
 
   Heroku provides you with a highly scalable platform on which to run all your applications.  You can scale almost instantly by selecting the resources (dyno's) you need and Heroku automatically provisions them for you.
   
-  Simply throwing more and more resources to handle traffic with your app just makes any Paas or IaaS service feel expensive.  It is therefore important to understand how your app will scale to get the best value from the Heroku platform.
-  
 ![Heroku scaling](../images/heroku-features-scaling-dynos.png)
 
-### Scalable platform != Scalable Apps
+  You can scale individual dynos (application processes) to create a very effective and highly scalable app, scaling each part up and down as required.  To scale effectively you need to gain understanding of how your application is going to be used and monitor how well it performs under various loads.
+
+> **Warning** Simply throwing more and more resources to handle traffic with your app makes any Paas or IaaS service feel expensive.  [Monitoring App Performance](monitoring-performance.html) helps you get the most value from the Heroku platform.
+
+## Designing scalable apps
 
   Application design is still your responsibility.  However Heroku share with your their experiences in running their own scalable apps and those of its customers.  
   
@@ -24,7 +26,7 @@
 
   Of course you also need an appreciation of how your framework and language practices and design patterns help your application scale.
 
-### Constraints
+## Constraints
 
   To make the most of the Heroku platform, you should gain a deeper appreciation of Heroku and its constraints
 
