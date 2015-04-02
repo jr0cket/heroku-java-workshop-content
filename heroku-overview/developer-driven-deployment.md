@@ -1,12 +1,12 @@
 # Developer Driven Development
 
-  Heroku uses Git as the main way to deploy your application, so you dont need to spend time learning tools you are not already using.
+  Heroku uses [Git](http://git-scm.com) as the main way to deploy your application, so you can deploy using the tools you already know.
 
 > **Comment** If you know the basics of Git, you already know how to deploy onto Heroku.  If you do not know Git, we will show you all you need to know in this workshop.
 
 > You can also develop your skills with Git at [try.github.io](https://try.github.io)
 
-  When Heroku recieves your `git push` it works out what langauge and framework you have used and configures, builds and deploys your application automatically.  If your language or framework has a commonly used build tool, then Heroku installs that as well so it builds your application in the same way you do locally.
+  When Heroku recieves your `git push` it works out what language and framework you have used and configures, builds and deploys your application automatically.  If your language or framework has a commonly used build tool, then Heroku installs that tool as well, building your application in the same way as you do locally.
 
 ![Heroku deployment simplified](../images/heroku-push-simple.png)
 
@@ -30,7 +30,7 @@
 
 ---
 
-  It can be valuable to use a service such as Github or Bitbucket to collaborate on code, as they provide more features in that respect than Heroku.  Here is a [simple team workflow with Github](http://jr0cket.co.uk/developer-guides/heroku-developer-team-workflow-with-github.png):
+  It can be valuable to use a service such as [Github](https://github.com) or Bitbucket to collaborate on code, as they provide more features in that respect than Heroku.  Here is a [multi-team workflow with Github](http://jr0cket.co.uk/developer-guides/heroku-developer-team-workflow-with-github.png):
 
 ![Heroku Teams and Github Workflow](../images/heroku-developer-team-workflow-with-github.png)
 
