@@ -1,4 +1,5 @@
 # Summary
+* [Deploying with Heroku Button](heroku-button/index.md)
 * [Heroku Features in a nutshell](heroku-overview/index.md)
    * [Developer Driven Deployment](heroku-overview/developer-driven-deployment.md)   
    * [Abstracting Infrastructure](heroku-overview/abstracting-infrastructure.md)
@@ -11,7 +12,6 @@
    * [Heroku Toolbelt](getting-started/heroku-toolbelt.md)   
    * [Authenticating with Heroku](getting-started/authenticating-with-heroku.md)      
    * [Heroku Dashboard](getting-started/heroku-dashboard.md) 
-* [Deploying with Heroku Button](deploy-with-heroku-button/index.md)
 * [Deploying Sample Apps](deploy-sample-apps/index.md)
   * [Deploy initial Java App](deploy-sample-apps/deploy-initial-java-app.md)
   * [Define the App process](deploy-sample-apps/define-app-process.md)
