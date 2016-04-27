@@ -6,7 +6,7 @@
   
     heroku open 
 
-  In the browser window, instead of your shine new application, you will instead see an application error.
+  In the browser window, instead of your new application you will instead see an application error.
   
 ![Browser - application error](../images/heroku-app-error.png)
 

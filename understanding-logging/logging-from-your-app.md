@@ -25,7 +25,7 @@ System.err.println("Error: Something has gone wrong!");
   
     heroku logs --tail 
 
-![Heroku Toolbelt - heroku logs --tail - application logging](../images/heroku-toolbelt-logs-app-message.png)
+[![Heroku Toolbelt - heroku logs --tail - application logging](../images/heroku-toolbelt-logs-app-message.png)](../images/heroku-toolbelt-logs-app-message.png)
 
 --- 
 

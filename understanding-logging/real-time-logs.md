@@ -16,4 +16,4 @@
 heroku logs --tail
 ```
 
-![Heroku logs in real time with --tail](../images/heroku-logs-deploy-and-tail.png)
+[![Heroku logs in real time with --tail](../images/heroku-logs-deploy-and-tail.png)](../images/heroku-logs-deploy-and-tail.png)

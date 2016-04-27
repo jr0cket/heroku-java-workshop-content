@@ -6,7 +6,7 @@
   
   There are also [several logging services available via Heroku Addons](https://addons.heroku.com/?q=log) which provide log persistence, searching, condition based alerts, analytics, etc.  
   
-![](../images/heroku-addons-log.png)
+[![Heroku addong - logging](../images/heroku-addons-log.png)](../images/heroku-addons-log.png)
   
   If you are experiencing performance problems, having the logs around can help highlight issues with your application.  Intermittent problems are particularly hard to find, so this may require looking for patterns over a longer period of time.
   

@@ -31,4 +31,4 @@
   
   * `message` - the message itself, split every 10,000 bytes and submitted as a separate log line.
 
-![Heroku Logs example](../images/heroku-logs-tail-app-sample-java-initial-deploy.png)
+[![Heroku Logs example](../images/heroku-logs-tail-app-sample-java-initial-deploy.png)](../images/heroku-logs-tail-app-sample-java-initial-deploy.png)

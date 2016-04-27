@@ -1,8 +1,6 @@
 # Authenticating with Heroku
 
-> **Comment** We have a new service to make authenticating your account easier.  Please dont hesitate to let us know if you have any issues.
-
-  To deploy your source code onto Heroku you need to first authenticate yourself (prove you are who you say you are).  You only need to authenticate yourself once per computer you use.
+  To deploy your source code onto Heroku you need to first authenticate yourself (prove you are who you say you are).  **You only need to authenticate yourself once** for each computer you use to connect to Heroku.
 
 ### Authentication via HTTP Git service (new)
 
@@ -12,7 +10,7 @@
 
     heroku login
 
-  Provide your Heroku username and password when prompted.
+  Provide your Heroku username and password when prompted.  If your account has [2-factor authentication](https://devcenter.heroku.com/articles/two-factor-authentication) configured, you will also be prompted for a 2-factor code.
 
 ![Heroku authentication](../images/heroku-login-2factor.png)
   
@@ -22,9 +20,11 @@
 
 > **Hint** For more information, see the article [Http Git](https://devcenter.heroku.com/articles/http-git).
 
----
+  You can now move on to the next section.
+  
+<hr />
 
-### Authentication by Public Key (optional)
+### Alternative authentication method by Public Key (optional)
  
   You can also authenticate yourself with Heroku via public key encryption.  To do so you need to add an SSH key to your Heroku account.  This same approach taken by services such as Github, however its much easier to add your key with the Heroku toolbelt.  
   

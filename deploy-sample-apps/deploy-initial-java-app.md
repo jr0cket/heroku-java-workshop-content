@@ -2,9 +2,11 @@
   
 > **Note** Deploy the initial Java application from a Github repository
 
-  Copy the source code to your computer using git:
+  Copy the source code to your computer using git and change into the directory that is created:
   
     git clone https://github.com/agileforce/elevate-java.git
+    
+    cd elevate-java
 
 ![Heroku Sample app - Git clone](../images/heroku-git-clone-elevate-java.png)
 
@@ -14,7 +16,7 @@
 
 ![Heroku Sample app - Heroku create](../images/heroku-app-sample-heroku-create.png)
 
-> **Comment** The name of your Heroku app will be different to the example above.  The name has to be unique across all Heroku as it forms part of the web address (URL) of your application.  You can of course use a custom domain with your application.
+> **Comment** The name of your Heroku app will be different to the example above.  The name has to be unique across all Heroku apps as it forms part of the web address (URL) of your application.  You can of course use a custom domain with your application.
 
   The `heroku create` command also adds a connection to the Git repository for your Heroku app to your local Git repository 
   
